@@ -1,0 +1,15 @@
+Run Development HTTP server
+
+  morbo test.pl
+
+Development Server access
+
+  http://153.121.46.88:3010/
+
+Restart Production Server
+
+  hypnotoad test.pl
+
+Production Server access
+
+  http://testserver.spvm.info
