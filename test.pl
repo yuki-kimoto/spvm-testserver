@@ -8,6 +8,11 @@ get '/' => sub {
   $c->render(template => 'index');
 };
 
+post '/echo' => sub {
+  my $c = shift;
+  $c->render(data => "Echo server: '" . $c->req->body . "'");
+};
+
 app->start;
 __DATA__
 
